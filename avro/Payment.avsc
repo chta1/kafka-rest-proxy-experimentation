@@ -1,0 +1,8 @@
+{"namespace": "com.tala.loans.model.kafka",
+ "type": "record",
+ "name": "Payment",
+ "fields": [
+     {"name": "id", "type": "string"},
+     {"name": "amount", "type": "double"}
+ ]
+}
