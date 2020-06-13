@@ -34,7 +34,6 @@ type Payment struct {
 
 func main() {
 
-	//jsonConent := "application/vnd.kafka.v2+json"
 	//contentType := "application/vnd.kafka.json.v2+json"
 	avroContentType := "application/vnd.kafka.avro.v2+json"
 	localHost := "http://localhost:8082"
@@ -58,9 +57,9 @@ func main() {
 	//unSubscribedToTopic(localHost, consumerGroup, consumer)
 	//destroyConsumer(localHost, consumerGroup, consumer)
 
-	//
-	//devHost := "http://cp-kafka-rest-proxy.dev.india.atlas-antelope.com:8082"
-	//devRegistryHost := "http://schema-registry.dev.india.atlas-antelope.com:8081"
+	// dev hosts can be found here https://talamobile.atlassian.net/wiki/spaces/DEV/pages/1027866786/Atlas+MSK+-+Kafka+Infrastructure+details
+	//devHost := "xxxxxx:8082"
+	//devRegistryHost := "xxx:8081"
 	//
 	//listTopics(devHost)
 	//getTopic(devHost, "dev-india-etl-comms-message-statuses")
